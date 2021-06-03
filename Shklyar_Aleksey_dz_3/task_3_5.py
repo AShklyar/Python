@@ -6,6 +6,9 @@ adjectives = ['веселый', 'яркий', 'зеленый', 'утопины�
 
 
 def get_jokes(counts, key=True):
+    """" Function maks random jokes. counts - int type (count of jokes in result list). key - bool type
+         (True - replays are allowed : False - replays are not allowed)
+    """
     work_list = []
     if key:
         # в этом цикле мы сразу из последовательности выбирваем случайным образом элементы последовательности
