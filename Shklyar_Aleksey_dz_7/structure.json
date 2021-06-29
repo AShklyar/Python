@@ -1,2 +1,2 @@
-{"my_project_3": ["settings", "mainapp", "adminapp", "authapp"],
+{"my_project": ["settings", "mainapp", "adminapp", "authapp"],
   "my_root_dir": ["folder_1", "folder_2", "folder_3"]}

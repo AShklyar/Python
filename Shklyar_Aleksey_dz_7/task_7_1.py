@@ -4,7 +4,7 @@ import json
 
 
 def make_dirs(var_1, var_2):
-    """var_1: списк папок; var_2: корневая дириктория"""
+    """var_1: список папок; var_2: корневая директория"""
     for folder in var_1:
         goal_dir = os.path.join(var_2, folder)
         if os.path.exists(goal_dir):
@@ -15,7 +15,6 @@ def make_dirs(var_1, var_2):
     return 0
 
 
-# structure = {'my_project': ['settings', 'mainapp', 'adminapp', 'authapp']}  # можно было так
 with open('structure.json', encoding='utf-8') as f:
     structure = json.loads(f.read())
 for root, folders in structure.items():
